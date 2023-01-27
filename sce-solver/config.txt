@@ -1,0 +1,16 @@
+timeout:3600
+solver:0
+graph_data_structure:2
+branching:0
+apply_packing_lb:1
+apply_mincut_lb:1
+apply_data_reduction:1
+
+
+# EXPLANATION OF SOLVER OPTIONS:
+# solver: 0 -> search-tree solver, 1 -> ilp solver, 2 -> heuristic solver
+# graph_data_structure: 0 -> graph, 1 -> pgraph, 2 -> pgraph_map
+# branching: 0 -> branch until UB reached, 1 -> k-loop
+# apply_packing_lb: apply Packing Lower Bound in every x'th recursive step (0: never apply it)
+# apply_mincut_lb: how often to apply MinCut Lower Bound during the branching
+# apply_data_reduction: how often to apply more expensive Data Reduction during the branching

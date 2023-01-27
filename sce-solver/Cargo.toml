@@ -1,0 +1,20 @@
+[package]
+name = "sce-solver"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# rplex = {version = "0.2", git = "https://github.com/emallson/rplex.git"}
+rplex = {version = "0.2", git = "https://github.com/ki-la/rplex.git"}
+petgraph = "0.6.2"
+rand = "0.8.5"
+indexmap = "1.9.1"      # "pure-Rust hash table which preserves (in a limited sense) insertion order" (https://crates.io/crates/indexmap)
+cxx = "1.0.78"
+autocxx = "0.22.4"
+ahash = "0.8.0"         # "fastest, DOS resistant hash currently available in Rust" (https://crates.io/crates/ahash)
+
+[build-dependencies]
+autocxx-build = "0.22.4"
+miette = { version="4.3", features=["fancy"]}
