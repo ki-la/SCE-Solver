@@ -1,0 +1,8 @@
+del 1 2
+del 7 5
+del 7 9
+ins 4 10
+ins 4 8
+del 4 12
+ins 6 10
+del 3 9

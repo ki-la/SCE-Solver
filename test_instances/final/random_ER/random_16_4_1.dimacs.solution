@@ -1,0 +1,14 @@
+ins 1 15
+del 3 2
+del 3 12
+del 4 5
+del 4 8
+del 4 14
+ins 6 13
+del 7 8
+ins 10 13
+ins 10 16
+ins 11 13
+ins 16 15
+del 2 12
+del 14 9

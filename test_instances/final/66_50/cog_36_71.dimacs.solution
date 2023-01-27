@@ -1,0 +1,13 @@
+ins 30 14
+del 31 34
+del 31 19
+del 34 19
+ins 3 16
+ins 5 16
+del 19 1
+ins 28 15
+ins 14 15
+ins 14 33
+del 32 36
+del 32 17
+del 36 17
